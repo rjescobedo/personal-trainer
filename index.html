@@ -7,26 +7,54 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <!--Styles CSS-->
     <link rel="stylesheet" href="css/styles.css">
+    
 
     <title>Personal Trainer Website</title>
 </head>
 <body>
 <!--Header-->
-<header class="jumbotron jumbotron-fluid text-center text-white">
+<header class="jumbotron jumbotron-fluid mb-0 text-center text-white">
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>The Trainer App</h1>
-                <h2>Connecting our PTs & Clients</h2>
+                <h1 class="display-3">The Trainer App</h1>
+                <h3>Connecting our PTs & Clients</h3>
             </div>
          </div>
     </div>
 </header>
 
 <!--Nav Bar-->
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <i class="fa-solid fa-dumbbell"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: rgb(79, 7, 212);" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: rgb(79, 7, 212);" href="#">Workouts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: rgb(79, 7, 212);" href="#">Messenger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: rgb(79, 7, 212);" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <!--Body Content-->
 <div class="container">
