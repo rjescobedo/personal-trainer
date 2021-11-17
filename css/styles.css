@@ -31,3 +31,11 @@ footer {
     background-color: rgb(79, 7, 212);
     padding: 20px 0;
 }
+
+.fa-dumbbell, 
+.fa-home,
+.fa-running,
+.fa-comment,
+.fa-mobile-alt {
+    color: rgb(79, 7, 212);
+}
