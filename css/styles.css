@@ -39,3 +39,12 @@ footer {
 .fa-mobile-alt {
     color: rgb(79, 7, 212);
 }
+
+a .fa-dumbbell:hover, 
+a .fa-home:hover,
+a .fa-running:hover,
+a .fa-comment:hover,
+a .fa-mobile-alt:hover {
+    color: rgb(59, 8, 152);
+}
+
