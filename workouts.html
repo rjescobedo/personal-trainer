@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f20e3833df.js" crossorigin="anonymous"></script>    <!--Styles CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <title>Workouts Page</title>
+</head>
+<body>
+<!--Header-->
+<header class="jumbotron jumbotron-fluid mb-0 text-center text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-3">The Trainer App</h1>
+                <h3>Connecting our PTs & Clients</h3>
+            </div>
+         </div>
+    </div>
+</header>
+
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> The Trainer</span>
+      </a>
+    </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-running"></i> Workouts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-comment"></i> Messenger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+<!--Workouts-->
+<div class="row row-content">
+    <div class="col-6">
+        <h3 class="text-center custom-font">Upper Body Workout</h3>
+        <div id="accordion">
+            <div class="tab-content">
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="accordion-button" data-toggle="collapse" data-target="#bootstrap">
+                                Exercise #1
+                            </a>
+                        </h4>
+                        <div class="collapse" id="bootstrap" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, magni!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#git">
+                                Exercise #2
+                            </a>
+                        </h4>
+                        <div class="collapse" id="git" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, ducimus.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#mongo">
+                                Exercise #3
+                            </a>
+                        </h4>
+                        <div class="collapse" id="mongo" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div role="tab" class="card-header">
+                        <h4>
+                            <a class="collapsed" data-toggle="collapse" data-target="#node">
+                                Exercise #4
+                            </a>
+                        </h4>
+                        <div class="collapse" id="node" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Footer-->
+<footer class="p-3 bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <a role="button" class="btn" href="index.html"><i class="fas fa-home fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="#"><i class="fas fa-dumbbell fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="#"><i class="fas fa-comment fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="contact.html"><i class="fas fa-mobile-alt fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="row text-center">
+          <div class="col pt-2">
+            <span class="text-muted">&copy; 2021 Trainer, Inc.</span>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

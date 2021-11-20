@@ -50,17 +50,3 @@ a .fa-comment:hover,
 a .fa-mobile-alt:hover {
     color: rgb(59, 8, 152);
 }
-
-footer .fa-home,
-footer .fa-dumbbell,
-footer .fa-comment,
-footer .fa-mobile-alt {
-    color: white;
-}
-
-footer .fa-home:hover,
-footer .fa-dumbbell:hover,
-footer .fa-comment:hover,
-footer .fa-mobile-alt:hover {
-    color: rgb(200, 197, 197);
-}
