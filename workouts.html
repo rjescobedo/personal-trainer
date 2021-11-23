@@ -54,80 +54,105 @@
         </ul>
       </div>
     </div>
-
   </nav>
 
 <!--Workouts-->
 <div class="container">
-    <div class="row row-content">
-        <div class="col-6">
-            <h3 class="text-center custom-font">Upper Body Workout</h3>
-            <div id="accordion">
-                <div class="tab-content">
-                    <div class="card">
-                        <div role="tab" class="card-header">
-                            <h4>
-                                <a class="accordion-button" data-toggle="collapse" data-target="#bootstrap">
-                                    Exercise #1
-                                </a>
-                            </h4>
-                            <div class="collapse" id="bootstrap" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, magni!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div role="tab" class="card-header">
-                            <h4>
-                                <a class="collapsed" data-toggle="collapse" data-target="#git">
-                                    Exercise #2
-                                </a>
-                            </h4>
-                            <div class="collapse" id="git" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, ducimus.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div role="tab" class="card-header">
-                            <h4>
-                                <a class="collapsed" data-toggle="collapse" data-target="#mongo">
-                                    Exercise #3
-                                </a>
-                            </h4>
-                            <div class="collapse" id="mongo" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div role="tab" class="card-header">
-                            <h4>
-                                <a class="collapsed" data-toggle="collapse" data-target="#node">
-                                    Exercise #4
-                                </a>
-                            </h4>
-                            <div class="collapse" id="node" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p class="d-none d-sm-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, soluta.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <div class="row">
+      <div class="col-12">
+        <h1 class="display-4 text-center custom-font p-3">Custom Workouts</h1>
+      </div>
+        <div class="col-12 col-lg-6 p-3">
+            <h2 class="text-center custom-font">Upper Body Workout</h4>
+            <div class="list-group">
+                <a id="chestPressButton" class="list-group-item list-group-item-action">
+                  Chest Press <span class="text-secondary">3 Set/10 Reps</span>
+                </a>
+                <a class="list-group-item list-group-item-action">Chest Flys</a>
+                <a class="list-group-item list-group-item-action">Tricep Press</a>
+                <a class="list-group-item list-group-item-action">Over the Head</a>
+                <a class="list-group-item list-group-item-action">Lat Pull Down</a>
+                <a class="list-group-item list-group-item-action">Cable Row</a>
+                <a class="list-group-item list-group-item-action">Single Arms Curls</a>
+                <a class="list-group-item list-group-item-action">Bicep Curls</a>
+              </div>
+            <div class="row">
+                <div class="col text-center pt-2">
+                  <button type="submit" class="btn btn-custom" data-toggle="modal" data-target="#congratsModal">Workout Complete</button>
                 </div>
             </div>
         </div>
+        <div class="col-12 col-lg-6 p-3">
+          <h2 class="text-center custom-font">Lower Body Workout</h4>
+          <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                Jump Squat <span class="text-secondary">3 Set/10 Reps</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">Squat</a>
+              <a href="#" class="list-group-item list-group-item-action">Lying Leg Curl</a>
+              <a href="#" class="list-group-item list-group-item-action">Romanian Deadlift</a>
+              <a href="#" class="list-group-item list-group-item-action">Leg Press Calf Raise</a>
+              <a href="#" class="list-group-item list-group-item-action">Lunge</a>
+              <a href="#" class="list-group-item list-group-item-action">Leg Press</a>
+              <a href="#" class="list-group-item list-group-item-action">One-Leg Standing Calf Raise</a>
+            </div>
+            <div class="row">
+              <div class="col text-center pt-2">
+                <button type="submit" class="btn btn-custom" data-toggle="modal" data-target="#congratsModal">Workout Complete</button>
+              </div>
+          </div>
+      </div>
     </div>
-
 </div>
 
+<!--Chest Press Exercise Modal-->
+<div class="modal fade" id="chestPressModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title custom-font" id="exampleModalLongTitle">Chest Press</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="row">
+        <div class="col-12">
+          <h4>Video</h4>
+        </div>
+        <div class="col-12">
+          <video src="...">Chest Press Video</video>
+        </div>
+        <div class="col-12">
+          <h6 class="custom-font">Description:</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nesciunt cupiditate asperiores laborum, doloremque commodi? Libero aliquam unde deserunt quam.</p>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer bg-light">
+        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--Congrats Modal-->
+<div class="modal fade" id="congratsModal" role="dialog">
+  <div class="modal-dialog">
+      <div class="card">
+          <div class="text-right cross"> 
+            <i class="fa fa-times"></i> 
+          </div>
+          <div class="card-body text-center"> 
+            <img src="https://img.icons8.com/bubbles/200/000000/trophy.png">
+              <h4>CONGRATULATIONS!</h4>
+              <p>Keep up the great work!</p> <button class="btn btn-danger continue">Continue</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+   
 <!--Footer-->
 <footer class="p-3 bg-light">
     <div class="container">
