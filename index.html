@@ -20,8 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1 class="display-3">The Trainer App</h1>
-                <h3>Connecting our PTs & Clients</h3>
+                <h1 class="display-3">The Trainer</h1>
             </div>
          </div>
     </div>
@@ -31,7 +30,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> The Trainer</span>
+        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> Home</span>
       </a>
       <span class="navbar ml-auto custom-font">
         <a id="loginButton" role="button">
@@ -45,12 +44,6 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="workouts.html"><i class="fas fa-running"></i> Workouts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-comment"></i> Messenger</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html"><i class="fas fa-mobile-alt"></i> Contact</a>
@@ -71,6 +64,14 @@
             </div>
             <div class="modal-body">
                 <div class="container-fluid">
+                  <div class="custom-control custom-radio custom-control-inline pb-2">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">Personal Trainer</label>
+                  </div>
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="clientSelection" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="clientSelection">Client</label>
+                  </div>
                     <form>
                         <div class="form-row">
                             <div class="form-group col-12">
@@ -90,7 +91,7 @@
                         </div>
                         <div class="form-row">
                             <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-custom btn-sm ml-1">Sign in</button>
+                            <button id="signInToPage" type="submit" class="btn btn-custom btn-sm ml-1">Sign in</button>
                         </div>
                     </form>
                 </div>
@@ -103,24 +104,15 @@
 <div class="container">
     <div class="row row-content">
         <div class="col-12 text-center">
-            <h1 class="display-1 custom-font">Welcome, Client!</h1>
+            <h1 class="display-1 custom-font">Welcome!</h1>
             <i class="fas fa-dumbbell fa-7x mb-5"></i>
         </div>
-        <div class="col-sm-6 mb-3">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title custom-font">Custom Workouts</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, earum?</p>
-              <a href="workouts.html" class="btn btn-custom">Workouts</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
+        <div class="col">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title custom-font">Message Trainer</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, earum?</p>
-                <a href="#" class="btn btn-custom">Messenger</a>
+                <h2 class="card-title custom-font text-center">Welcome to The Trainer!</h2>
+                <p class="card-text p-3">Are you a personal trainer or client trying to get connected? Want access to custom workouts? Need a little extra motivation? Login here to get started!</p>
+                <a id="loginTwoButton" class="btn btn-custom">Login</a>
               </div>
             </div>
           </div>
@@ -132,22 +124,8 @@
 <footer class="p-3 bg-light">
     <div class="container">
         <div class="row text-center">
-            <div class="col">
-                <a role="button" class="btn" href="#"><i class="fas fa-home fa-2x"></i></a>
-            </div>
-            <div class="col">
-                <a role="button" class="btn" href="workouts.html"><i class="fas fa-dumbbell fa-2x"></i></a>
-            </div>
-            <div class="col">
-                <a role="button" class="btn" href="#"><i class="fas fa-comment fa-2x"></i></a>
-            </div>
-            <div class="col">
-                <a role="button" class="btn" href="contact.html"><i class="fas fa-mobile-alt fa-2x"></i></a>
-            </div>
-        </div>
-        <div class="row text-center">
           <div class="col pt-2">
-            <span class="text-muted">&copy; 2021 Trainer, Inc.</span>
+            <span class="text-muted">&copy; 2021 The Trainer, Inc.</span>
           </div>
         </div>
     </div>

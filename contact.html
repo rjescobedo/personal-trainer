@@ -21,7 +21,6 @@
         <div class="row">
             <div class="col">
                 <h1 class="display-3">The Trainer App</h1>
-                <h3>Connecting our PTs & Clients</h3>
             </div>
          </div>
     </div>
@@ -30,8 +29,8 @@
 <!--Nav Bar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> The Trainer</span>
+      <a class="navbar-brand" href="client.html">
+        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> Contact</span>
       </a>
     </span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
@@ -40,13 +39,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a class="nav-link" href="client.html"><i class="fas fa-home"></i> Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="workouts.html"><i class="fas fa-running"></i> Workouts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-comment"></i> Messenger</a>
+            <a class="nav-link" href="messenger.html"><i class="fas fa-comment"></i> Messenger</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-mobile-alt"></i> Contact</a>
@@ -96,10 +95,30 @@
     </div>
     <div class="form-group row px-3">
         <div class="offset-md-2 col-md-10">
-            <button class="btn btn-custom" type="submit">Submit</button>
+            <button id="submitContact" class="btn btn-custom" type="button">Submit</button>
         </div>
     </div>
 </form>
+
+<!--Contact Submit Modal-->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title custom-font" id="exampleModalLongTitle">Contact Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Form submitted! We will contact you within 48 hours!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <!--Footer-->
@@ -107,13 +126,13 @@
     <div class="container">
         <div class="row text-center">
             <div class="col">
-                <a role="button" class="btn" href="index.html"><i class="fas fa-home fa-2x"></i></a>
+                <a role="button" class="btn" href="client.html"><i class="fas fa-home fa-2x"></i></a>
             </div>
             <div class="col">
                 <a role="button" class="btn" href="workouts.html"><i class="fas fa-dumbbell fa-2x"></i></a>
             </div>
             <div class="col">
-                <a role="button" class="btn" href="#"><i class="fas fa-comment fa-2x"></i></a>
+                <a role="button" class="btn" href="messenger.html"><i class="fas fa-comment fa-2x"></i></a>
             </div>
             <div class="col">
                 <a role="button" class="btn" href="#"><i class="fas fa-mobile-alt fa-2x"></i></a>

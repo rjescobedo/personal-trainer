@@ -16,6 +16,10 @@ body {
     min-height: 200px;
 }
 
+.col-content {
+    border-bottom: 1px ridge;
+}
+
 .custom-font {
     color: rgb(79, 7, 212);
 }
