@@ -43,7 +43,8 @@ body {
 .fa-running,
 .fa-comment,
 .fa-mobile-alt,
-.fa-sign-in {
+.fa-sign-in,
+.fa-user-circle {
     color: rgb(79, 7, 212);
 }
 
