@@ -8,4 +8,13 @@ $(function(){
     $('#chestPressButton').click(function(){
         $('#chestPressModal').modal('show');
     });
+
+//Congrats Modal
+    $('#upperBodyComplete').click(function(){
+        $('#congratsModal').modal('show');
+    });
+    
+    $('#lowerBodyComplete').click(function(){
+        $('#congratsModal').modal('show');
+    });
 });
