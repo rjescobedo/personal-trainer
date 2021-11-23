@@ -67,15 +67,15 @@ a .fa-mobile-alt:hover {
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.03);
     -webkit-transition: .5s;
-    transition: .5s
+    transition: .5s;
 }
 
 .padding {
-    padding: 3rem !important
+    padding: 3rem !important;
 }
 
 .card-header:first-child {
-    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
 
 .card-header {
@@ -87,12 +87,12 @@ a .fa-mobile-alt:hover {
     align-items: center;
     padding: 15px 20px;
     background-color: transparent;
-    border-bottom: 1px solid rgba(77, 82, 89, 0.07)
+    border-bottom: 1px solid rgba(77, 82, 89, 0.07);
 }
 
 .card-header .card-title {
     padding: 0;
-    border: none
+    border: none;
 }
 
 h4.card-title {
@@ -100,12 +100,12 @@ h4.card-title {
 }
 
 .card-header>*:last-child {
-    margin-right: 0
+    margin-right: 0;
 }
 
 .card-header>* {
     margin-left: 8px;
-    margin-right: 8px
+    margin-right: 8px;
 }
 
 .btn-secondary {
@@ -118,7 +118,7 @@ h4.card-title {
 .btn-xs {
     font-size: 11px;
     padding: 2px 8px;
-    line-height: 18px
+    line-height: 18px;
 }
 
 .btn-xs:hover {
@@ -135,7 +135,7 @@ h4.card-title {
 }
 
 .ps-container {
-    position: relative
+    position: relative;
 }
 
 .ps-container {
@@ -265,7 +265,7 @@ h4.card-title {
 .media-chat.media-chat-reverse .media-body p {
     float: right;
     clear: right;
-    background-color: #48b0f7;
+    background-color: rgb(79, 7, 212);
     color: #fff
 }
 
@@ -296,7 +296,7 @@ h4.card-title {
 }
 
 .publisher>*:first-child {
-    margin-left: 0
+    margin-left: 0;
 }
 
 .publisher>* {
@@ -355,6 +355,6 @@ textarea {
 }
 
 .text-info {
-    color: #48b0f7 !important
+    color: rgb(79, 7, 212) !important
 }
 
