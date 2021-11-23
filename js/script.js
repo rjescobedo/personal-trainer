@@ -4,11 +4,6 @@ $(function(){
         $("#loginModal").modal("show");
     });
 
-//Login 2 Modal
-    $("#loginTwoButton").click(function(){
-        $("#loginModal").modal("show");
-    });
-
 //Logout to index.html
 $('#logoutButton').click(function(){
     window.location.href = 'index.html';
