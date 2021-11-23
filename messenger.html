@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/f20e3833df.js" crossorigin="anonymous"></script>    <!--Styles CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <title>Messenger</title>
+</head>
+<body>
+<!--Header-->
+<header class="jumbotron jumbotron-fluid mb-0 text-center text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-3">The Trainer App</h1>
+                <h3>Connecting our PTs & Clients</h3>
+            </div>
+         </div>
+    </div>
+</header>
+
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-dumbbell"></i><span class="custom-font trainer-text"> The Trainer</span>
+      </a>
+    </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-running"></i> Workouts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-comment"></i> Messenger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-mobile-alt"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Messenger-->
+<div class="container">
+    <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="card-fluid card-bordered">
+                        <div class="card-header bg-light">
+                            <h2 class="card-title custom-font"><strong>Chat</strong></h2>
+                        </div>
+                        <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:400px !important;">
+                            <div class="media media-meta-day">Yesterday</div>
+                            <div class="media media-chat"> <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                                <div class="media-body">
+                                    <p>Hey!</p>
+                                    <p>Good luck today on your workout!</p>
+                                </div>
+                            </div>
+                            <div class="media media-chat media-chat-reverse">
+                                <div class="media-body">
+                                    <p>Thanks!</p>
+                                    <p>Geez...that was a tough one!</p>
+                                </div>
+                            </div>
+                            <div class="media media-meta-day">Today</div>
+                            <div class="media media-chat media-chat-reverse">
+                                <div class="media-body">
+                                    <p>Good morning! What time are we meeting today?</p>
+                                </div>
+                            </div>
+                            <div class="media media-chat"> <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                                <div class="media-body">
+                                    <p>At noon. See you then!</p>
+                                    <p>Way to go today! I'm definitely seeing some results!</p>
+                                </div>
+                            </div>
+                            <div class="media media-chat media-chat-reverse">
+                                <div class="media-body">
+                                    <p>Thanks!</p>
+                                </div>
+                            </div>
+                            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                            </div>
+                            <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                                <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                            </div>
+                        </div>
+                        <div class="publisher bt-1 border-light"> <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="..."> <input class="publisher-input" type="text" placeholder="Write something"> <span class="publisher-btn file-group"> <i class="fa fa-paperclip file-browser"></i> <input type="file"> </span> <a class="publisher-btn" href="#" data-abc="true"><i class="fa fa-smile"></i></a> <a class="publisher-btn text-info" href="#" data-abc="true"><i class="fa fa-paper-plane"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--Footer-->
+<footer class="p-3 bg-light">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <a role="button" class="btn" href="index.html"><i class="fas fa-home fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="#"><i class="fas fa-dumbbell fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="#"><i class="fas fa-comment fa-2x"></i></a>
+            </div>
+            <div class="col">
+                <a role="button" class="btn" href="contact.html"><i class="fas fa-mobile-alt fa-2x"></i></a>
+            </div>
+        </div>
+        <div class="row text-center">
+          <div class="col pt-2">
+            <span class="text-muted">&copy; 2021 Trainer, Inc.</span>
+          </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery, Popper.js, Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
