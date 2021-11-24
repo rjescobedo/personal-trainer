@@ -10,11 +10,17 @@ $('#logoutButton').click(function(){
     return false;
 })
 
-//Signin to New Page
-    $('#signInToPage').click(function(){
+//Signin to Client Page
+    $('#clientSelection').click(function(){
         window.location.href = 'client.html';
         return false;
-    })
+    });
+
+//Signin to Trainer Page
+    $('#trainerSelection').click(function(){
+        window.location.href = 'trainer.html';
+        return false;
+    });
 
 //Chest Press Modal
     $('#chestPressButton').click(function(){
