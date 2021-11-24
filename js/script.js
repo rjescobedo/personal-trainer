@@ -34,4 +34,8 @@ $('#logoutButton').click(function(){
     $('#submitContact').click(function(){
         $('#contactModal').modal('show');
     });
+
+//Footer Tooltips
+    $('[data-toggle="tooltip"]').tooltip();
+
 });
