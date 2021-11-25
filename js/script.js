@@ -2,6 +2,7 @@ $(function(){
 //Login Modal
     $("#loginButton").click(function(){
         $("#loginModal").modal("show");
+
     });
 
 //Logout to index.html
@@ -9,6 +10,17 @@ $('#logoutButton').click(function(){
     window.location.href = 'index.html';
     return false;
 })
+
+//If Statement for Login
+/* $('#signInToPage').click(function() {
+    if ($('#clientSelection').click){
+        window.location.href = 'client.html';
+        return false;
+    } else {
+        window.location.href = 'trainer.html';
+        return false;
+    }
+}); */
 
 //Signin to Client Page
     $('#clientSelection').click(function(){
