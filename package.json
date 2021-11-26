@@ -1,11 +1,12 @@
 {
-  "name": "personal-training",
+  "name": "the-trainer",
   "version": "1.0.0",
   "description": "This is my portfolio project",
   "main": "index.html",
   "scripts": {
-    "build": "npm run clean && npm run imagemin && npm run usemin",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
     "scss": "node-sass -o css/ css/",
@@ -29,6 +30,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
