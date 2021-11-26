@@ -56,4 +56,9 @@ $('#logoutButton').click(function(){
 //Footer Tooltips
     $('[data-toggle="tooltip"]').tooltip();
 
+//Trainer Workout Modal
+    $('#workoutSubmitButton').click(function(){
+        $('#workoutSubmitModal').modal('show');
+});
+
 });

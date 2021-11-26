@@ -58,9 +58,6 @@ a .fa-mobile-alt:hover {
   -webkit-transition: .5s;
   transition: .5s; }
 
-.padding {
-  padding: 3rem !important; }
-
 .card-header:first-child {
   border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0; }
 
