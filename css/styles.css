@@ -15,6 +15,9 @@ body {
   padding: 50px 0;
   min-height: 200px; }
 
+.row-border {
+  border-bottom: 1px ridge; }
+
 .col-content {
   border-bottom: 1px ridge; }
 
