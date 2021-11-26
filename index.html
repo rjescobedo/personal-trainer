@@ -65,15 +65,19 @@
             </div>
             <div class="modal-body">
                 <div class="container-fluid">
-                  <div class="custom-control custom-radio custom-control-inline pb-2">
-                    <input type="radio" id="trainerSelection" name="customRadioInline1" class="custom-control-input">
-                    <label class="custom-control-label" for="trainerSelection">Personal Trainer</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="clientSelection" name="customRadioInline1" class="custom-control-input">
-                    <label class="custom-control-label" for="clientSelection">Client</label>
-                  </div>
-                    <form>
+                    <form id="loginForm">
+                        <div class="form-row">
+                            <div class="col">
+                                <div class="custom-control custom-radio custom-control-inline pb-2">
+                                    <input type="radio" id="trainerSelection" name="customRadioInline1" class="custom-control-input" value="trainer" required>
+                                    <label class="custom-control-label" for="trainerSelection">Personal Trainer</label>
+                                  </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" id="clientSelection" name="customRadioInline1" class="custom-control-input" value="client">
+                                    <label class="custom-control-label" for="clientSelection">Client</label>
+                                  </div>
+                            </div>
+                        </div>
                         <div class="form-row">
                             <div class="form-group col-12">
                                 <label class="sr-only" for="loginEmail">Email address</label>
@@ -92,7 +96,7 @@
                         </div>
                         <div class="form-row">
                             <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                            <button id="signInToPage" type="submit" class="btn btn-custom btn-sm ml-1">Sign in</button>
+                            <button id="signInToPage" class="btn btn-custom btn-sm ml-1">Sign in</button>
                         </div>
                     </form>
                 </div>
