@@ -97,10 +97,10 @@
         <div class="col-12 col-lg-6 p-3">
           <h2 class="text-center custom-font pb-2">Lower Body Workout</h4>
           <div class="list-group">
-              <a class="custom-workout-font list-group-item d-flex justify-content-between list-group-item-action">Jump Squat
+              <a id="squatButton" class="open-popup custom-workout-font list-group-item d-flex justify-content-between list-group-item-action">Squat
                 <span class="text-secondary">3 Sets / 10 Reps</span>
               </a>
-              <a class="custom-workout-font list-group-item d-flex justify-content-between list-group-item-action">Squat
+              <a class="custom-workout-font list-group-item d-flex justify-content-between list-group-item-action">Jump Squat
                 <span class="text-secondary">3 Sets / 10 Reps</span>
               </a>
               <a class="custom-workout-font list-group-item d-flex justify-content-between list-group-item-action">Lying Leg Curl
@@ -144,18 +144,19 @@
       <div class="modal-body">
       <div class="row">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe id="chestPressVideo" class="embeded-responsive-item" src="https://www.youtube.com/embed/MHmUt6StMdc" title="YouTube video player"></iframe>
+          <iframe class="embeded-responsive-item" src="https://www.youtube.com/embed/MHmUt6StMdc" title="YouTube video player"></iframe>
         </div>
         <form class="m-3">
           <div class="form-group row">
-              <label for="sets" class="col-1 col-form-label ">Sets</label>
-              <div class="col">
-                  <input type="text" class="form-control col-7" id="sets" name="sets" placeholder="3 Sets" />
-              </div>
-              <label for="reps" class="col-1 col-form-label ">Reps</label>
-              <div class="col">
-                  <input type="text" class="form-control col-7" id="reps" name="reps" placeholder="10 Reps" />
-              </div>
+            <div class="col">
+                <input type="text" class="form-control" id="sets" name="sets" placeholder="3 Sets" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="reps" name="reps" placeholder="10 Reps" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="reps" name="reps" placeholder="Weight" />
+            </div>
           </div>
       </form>
         <div class="col-12">
@@ -165,7 +166,48 @@
       </div>
       </div>
       <div class="modal-footer bg-light">
-        <button type="button" class="btn btn-custom" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-custom closeVideo" data-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Squat Modal-->
+<div class="modal fade" id="squatModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title custom-font" id="exampleModalLongTitle">Squat</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="row">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embeded-responsive-item" src="https://www.youtube.com/embed/v__DckapxUw" YouTube video player"></iframe>
+        </div>
+        <form class="m-3">
+          <div class="form-group row">
+            <div class="col">
+                <input type="text" class="form-control" id="sets" name="sets" placeholder="3 Sets" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="reps" name="reps" placeholder="10 Reps" />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" id="reps" name="reps" placeholder="Weight" />
+            </div>
+          </div>
+      </form>
+        <div class="col-12">
+          <h6 class="custom-font">Description:</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nesciunt cupiditate asperiores laborum, doloremque commodi? Libero aliquam unde deserunt quam.</p>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer bg-light">
+        <button type="button" class="btn btn-custom closeVideo" data-dismiss="modal">Submit</button>
       </div>
     </div>
   </div>
@@ -191,7 +233,7 @@
 <!--Footer-->
 <footer class="p-2 bg-light mt-5">
     <div class="container">
-        <div class="row row-border text-center">
+        <div class="row text-center">
             <div class="col">
                 <a role="button" class="btn" href="client.html" data-toggle="tooltip" data-placement="top" title="Home"><i class="fas fa-home fa-2x"></i></a>
             </div>
@@ -205,17 +247,8 @@
                 <a role="button" class="btn" href="contact.html" data-toggle="tooltip" data-placement="top" title="Contact"><i class="fas fa-mobile-alt fa-2x"></i></a>
             </div>
         </div>
-        <div class="row text-center pt-1">
-          <div class="col">
-              <a class="btn" href="https://www.facebook.com"><i class="fab fa-facebook-f fa-lg"></i></a>
-              <a class="btn" href="https://www.twitter.com"><i class="fab fa-twitter fa-lg"></i></a>
-              <a class="btn" href="https://www.linkedin.com/in/raul-escobedo-8aa7a522/"><i class="fab fa-linkedin-in fa-lg"></i></a>
-              <a class="btn" href="https://www.instagram.com"><i class="fab fa-instagram fa-lg"></i></a>
-              <a class="btn" href="https://github.com/rjescobedo/personal-trainer.git"><i class="fab fa-github fa-lg"></i></a>
-          </div>
-      </div>
         <div class="row text-center">
-          <div class="col pt-2">
+          <div class="col py-2">
             <span class="text-muted">&copy; 2021 The Trainer, Inc.</span>
           </div>
         </div>
@@ -228,6 +261,5 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 <!-- endbuild -->
-
 </body>
 </html>

@@ -11,6 +11,7 @@ $(function(){
         return false;
     })
     
+    //Login to Client and Trainer Pages
     $("#loginForm").submit(function(e){
         e.preventDefault();
         const form = this;
@@ -22,11 +23,24 @@ $(function(){
             form.submit();
         }
     })
+
+    //Stop iframe Videos
+    $(function(){
+        $('.closeVideo').click(function(){      
+            $('iframe').attr('src', $('iframe').attr('src'));
+        });
+    });
     
     //Chest Press Modal
         $('#chestPressButton').click(function(){
             $('#chestPressModal').modal('show');
         });
+
+    //Squat Modal
+        $('#squatButton').click(function(){
+            $('#squatModal').modal('show');
+    });
+
     
     //Congrats Modal
         $('#upperBodyComplete').click(function(){
